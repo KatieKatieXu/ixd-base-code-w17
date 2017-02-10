@@ -2,15 +2,71 @@
 
 <html>
   <head>
-    <title>Test Page</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=devide=width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widtH, initial-scale=1">
+    <title>Home</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
   </head>
   <body>
-    Begin here (or replace this with any static code already written).
+    <!-- Top navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><span class="glyphicon glyphicon-align-justify"></span></a> </li>
+          <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign "></span></a> </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Upcoming Deadlines -->
+
+    <div class="firstcontainer container">
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <span class="glyphicon glyphicon-calendar"></span>  Upcoming Deadlines
+        </div>
+
+        <ul class="list-group">
+          <li class="list-group-item">
+            <p class="text-info">Feb 25, Tuesday</p>
+            Homework 1 <span class="pull-right">CSE 100</span>
+          </li>
+          <li class="list-group-item">
+            <p class="text-info">Feb 25, Tuesday</p>
+            Homework 3 <span class="pull-right">MATH 189</span>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class = "course panel">
+        <ul class="list-group">
+        CSE 100 <span class="badge pull-right">2</span>
+        </div>
+      </div>
+      <div class = "course panel">
+        <div class="panel-body">
+          COGS 120
+        </div>
+      </div>
+      <div class = "course panel">
+        <div class="panel-body">
+          MATH 189 <span class="badge pull-right">1</span>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+  <h4>Current Quarter Performance</h4>
+
+</div>
+
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.js"></script>
