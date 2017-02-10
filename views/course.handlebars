@@ -30,8 +30,8 @@
           <h3>{{code}}<small class="pull-right">{{section}}</small>
             <br>
             <small>{{title}}</small>
-          <button type="button" class="btn btn-default btn-sm pull-right">Syllabus</button>
-          </h3> 
+          <button type="button" class="btn btn-default btn-sm pull-right" onClick="window.open('/Syllabus.pdf')">Syllabus</button>
+          </h3>
         </div>
       </div>
 
@@ -39,7 +39,7 @@
     {{#if announcements.length}}
       <div class="container">
         <div class="panel panel-success">
-          <div class="panel-heading"> 
+          <div class="panel-heading">
             <span class="glyphicon glyphicon-bullhorn"></span> Announcement
           </div>
 
@@ -61,7 +61,7 @@
     {{#if dates.length}}
       <div class="container">
         <div class="panel panel-danger">
-          <div class="panel-heading"> 
+          <div class="panel-heading">
             <span class="glyphicon glyphicon-calendar"></span> Important Dates
           </div>
 
@@ -82,7 +82,7 @@
     {{#if grades.length}}
       <div class="container">
         <div class="panel panel-warning">
-          <div class="panel-heading"> 
+          <div class="panel-heading">
             <span class="glyphicon glyphicon-education"></span> Recent Grades
           </div>
 
