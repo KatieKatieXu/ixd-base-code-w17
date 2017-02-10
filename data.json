@@ -5,6 +5,7 @@
       "code": "CSE 100",
       "title": "Advanced Data Structure",
       "section": "A01",
+      "avgGrade": "B+",
       "announcements": [
         {
           "title": "Update and FAQs on Imapctus of the Executive Order on Immigration Policy.",
@@ -40,6 +41,7 @@
       "code": "COGS 120",
       "title": "Human Computer Interaction",
       "section": "B02",
+      "avgGrade": "A",
       "announcements": [],
       "dates": [
         {
