@@ -26,15 +26,10 @@
   vertical-align: middle;
 }
 
-.jumbotron {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .course .badge {
   background: red;
 }
 
-.container {
+.firstcontainer {
   margin-top: 10px;
 }
