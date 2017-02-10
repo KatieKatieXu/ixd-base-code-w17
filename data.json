@@ -1,0 +1,39 @@
+{ 
+  "courses": [
+    {
+      "id": "cse100",
+      "code": "CSE 100",
+      "title": "Advanced Data Structure",
+      "section": "A01",
+      "announcements": [
+        {
+          "title": "Updated and FAQs on Impactus of the executive Order on Immigration Policy.",
+          "time": "New"
+        },
+        {
+          "title": "Upcoming Midterm Exam",
+          "time": "2 hours ago"
+        }
+      ],
+      "dates": [
+        {
+          "description": "Midterm 1",
+          "time": "Feb 25, Tuesday"
+        },
+        {
+          "description": "Homework 3",
+          "time": "Mar 1, Monday"
+        }
+      ],
+      "grades": [
+        {
+          "description": "Midterm 1",
+          "mean": 25,
+          "std": 2,
+          "score": 27,
+          "total": 30
+        }
+      ]
+    }
+  ]
+}

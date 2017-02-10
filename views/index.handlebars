@@ -11,19 +11,18 @@
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/home.css" rel="stylesheet">
   </head>
+
   <body>
-    <!-- Top navbar -->
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a href="#"><span class="glyphicon glyphicon-align-justify"></span></a> </li>
-          <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign "></span></a> </li>
-        </ul>
-      </div>
-    </nav>
+    <a class="navbar-brand" href="/">Blank</a>
+    <!-- Icon tabbar -->
+    <div class="tabbar">
+      <ul>
+        <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a> </li>
+        <li><a href="#"><span class="glyphicon glyphicon-bell"></span></a> </li>
+      </ul>
+    </div>
 
     <!-- Upcoming Deadlines -->
-
     <div class="firstcontainer container">
       <div class="panel panel-danger">
         <div class="panel-heading">
@@ -44,29 +43,20 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class = "course panel">
-        <ul class="list-group">
-        CSE 100 <span class="badge pull-right">2</span>
-        </div>
-      </div>
-      <div class = "course panel">
-        <div class="panel-body">
-          COGS 120
-        </div>
-      </div>
-      <div class = "course panel">
-        <div class="panel-body">
-          MATH 189 <span class="badge pull-right">1</span>
-        </div>
-      </div>
-</div>
-
-<div class="container">
-  <h4>Current Quarter Performance</h4>
-
-</div>
-
+    <div class="courses container">
+      <h5>Courses</h5>
+      <ul class="course list-group">
+        {{#each courses}}
+        <li class="list-group-item">
+          <a href="/course/{{id}}">{{code}}
+            {{#if announcements.length} pull-right}
+              <span class="badge pull-right">{{announcements.length}}</span>
+            {{/if}}
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.js"></script>

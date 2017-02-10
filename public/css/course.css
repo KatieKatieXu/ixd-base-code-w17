@@ -1,40 +1,41 @@
-.navbar {
-  margin-bottom: 0;
-}
-
-.navbar-default {
-  margin: 0;
-}
-
-.navbar-nav {
-  display:table;
-  width:100%;
-  margin: 0;
-}
-
-.navbar-nav > li {
-  float:none;
-  display:table-cell;
-  text-align:center;
-}
-
-.navbar-nav > li > a {
-  height: 50px;
-}
-
-.navbar-nav > li > a > span {
-  vertical-align: middle;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .jumbotron {
-  padding-top: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.course .badge {
-  background: red;
+.navbar-logo a {
+  font-size: 36px;
 }
 
-.container {
-  margin-top: 10px;
+.tabbar ul {
+  display: table;
+  width: 100%;
+  background: #003399;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+.tabbar li {
+  display: table-cell;
+}
+
+.tabbar .active {
+  background-color: #002266;
+}
+
+.tabbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
