@@ -48,11 +48,12 @@
       <ul class="course list-group">
         {{#each courses}}
         <li class="list-group-item">
-          <a href="/course/{{id}}">{{code}}
-            {{#if announcements.length} pull-right}
+         <a href="/course/{{id}}">
+           {{code}}
+            {{#if announcements.length}}
               <span class="badge pull-right">{{announcements.length}}</span>
             {{/if}}
-          </a>
+         </a>
         </li>
         {{/each}}
       </ul>

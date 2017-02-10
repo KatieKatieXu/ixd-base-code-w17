@@ -7,7 +7,7 @@
       "section": "A01",
       "announcements": [
         {
-          "title": "Updated and FAQs on Impactus of the executive Order on Immigration Policy.",
+          "title": "Update and FAQs on Imapctus of the Executive Order on Immigration Policy.",
           "time": "New"
         },
         {
@@ -15,6 +15,32 @@
           "time": "2 hours ago"
         }
       ],
+      "dates": [
+        {
+          "description": "Midterm 1",
+          "time": "Feb 25, Tuesday"
+        },
+        {
+          "description": "Homework 3",
+          "time": "Mar 1, Monday"
+        }
+      ],
+      "grades": [
+        {
+          "description": "Midterm 1",
+          "mean": 25,
+          "std": 2,
+          "score": 27,
+          "total": 30
+        }
+      ]
+    },
+    {
+      "id": "cogs120",
+      "code": "COGS 120",
+      "title": "Human Computer Interaction",
+      "section": "B02",
+      "announcements": [],
       "dates": [
         {
           "description": "Midterm 1",
